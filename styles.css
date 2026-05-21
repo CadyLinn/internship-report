@@ -310,6 +310,13 @@ ul, ol { margin: 0; padding: 0; }
   border-bottom: 3px solid var(--orange);
   border-right: 3px solid var(--orange);
 }
+.image-box img {
+  width: 100%;
+  max-height: 360px;
+  object-fit: cover;
+  border-radius: 4px;
+  border: 1px solid var(--gray-line);
+}
 .image-box figcaption {
   margin-top: 10px;
   font-size: 0.9rem;
